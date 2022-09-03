@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#math-field {
+    border-radius: 10px;
+}
+form {
+    margin-top: 10vh;
+    justify-content: center;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.variantsRadio {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+#inputA {
+    width: 0;
+}
+.variantsText {
+    margin-top: 30px;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}     
+.variantsText:focus, #type:focus {
+    outline: none;
+}
+#type {
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#btn {
+    font-size: 25px;
+    background: white;
+    border: 3px solid rgb(192, 131, 250);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;   
+}
+#btn:hover {
+    background: rgb(192, 131, 250);
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+    border: 1px solid rgb(192, 131, 250);
+}
+#numberSelector {
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 20px;
+}

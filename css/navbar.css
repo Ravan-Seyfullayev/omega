@@ -1,0 +1,159 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    
+}
+
+.menuIl{    
+    display: inline-block;
+    margin-left: 30px;
+} 
+ul {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.navbarIl {
+    display: inline;    
+}
+.menuIl a {
+    text-decoration: none;
+    color: black;       
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-weight: 500;
+    font-size: 20px;
+}
+.profileIl { 
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+#navbarIlForLi {
+    display: inline;
+}
+#hamburgerMenu {
+    display: none;
+}
+input {
+    font-size: 16px;
+    border: solid  blueviolet 2px;
+    border-radius: 7px;
+    padding: 5px;
+}
+#searchForm {
+   width: 200px;
+}
+input:focus {
+    width: 300px;
+    outline: none;  
+    animation: html 0.5s ease-in-out;
+}
+#addIcon {
+    width: 15px;
+}
+#addIcon:hover {
+    cursor: pointer;
+}
+#profilePic{
+    width: 25px;
+    margin-right: 2px;
+    border-radius: 50%;
+}
+
+.dropdown {
+    display: none;
+    float: right;
+    margin-right: 20px;
+    border: solid black 2px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+#profilePic:hover, #addIcon:hover  {
+    cursor: pointer;
+}
+#searchButton {
+    display: none;
+}
+.dropdown li {
+
+}
+.inline-block {
+    display: i;
+}
+button {
+    background: none;
+    border: none;
+    }
+
+    #logo {
+        
+    }
+    #profileUl {
+        display: flex;
+        float: right;
+    }
+    @keyframes html {
+        0% { width: 200px;} 
+    100% { width: 300px; }
+ }
+@media only screen and (max-width: 700px) { 
+    #profilePic {
+        margin-top: 10px;
+        width: 40px;
+    } 
+    #addIcon {
+        width: 35px;
+    }
+    #searchButton {
+        display: inline-block;
+        margin-left: 10px;
+        border: 2px solid black;
+        padding: 5px;
+        border-radius: 10px;
+        
+    }   
+    .navbarIl input {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    input:focus {
+        width: 195px;
+        outline: none;  
+        animation: none;
+    } 
+    ul {
+        margin-top: 0;
+        margin-left: 0;
+        }
+    #navbarIlForLi {
+        height: 30vh;
+        margin-top: 10px;
+        background: rgb(141, 143, 255);
+        margin-right: 0;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #navbarIlForLi a {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+    }
+    .profileIl { 
+        margin-right: 0;
+    }
+    .menuIl {
+        margin-left: 0;
+    } 
+    #hamburgerMenu { 
+        margin-top: 5px;  
+        margin-right: 10px;
+        display: block;
+        width: 40px;
+        float: right;
+    }
+    }
+

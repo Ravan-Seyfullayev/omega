@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.questionsFromProfile {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.eachQuestion {
+    padding: 5px;
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 12px;
+    text-align: center;
+}
+.eachQuestion button {
+    margin-top: 10px;
+    border: 1px solid rgb(0, 86, 143);;
+    padding: 10px;
+    background: rgb(0, 86, 143);
+    border-radius: 10px;
+}
+
+.eachQuestion button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.eachQuestion p {
+    font-size: 20px;
+}
+#email {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mainData {
+    text-align: center;
+}
+.mainData h1 {
+    font-family: Arial;
+}
+.mainData img {
+    width: 70px;
+}
+#email:hover {
+    cursor: pointer;
+}
+@media only screen and (max-width: 400px) {
+    .questionsFromProfile {
+        text-align: center;
+    }
+}   

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+
+}
+.riemann-h {
+    padding: 10px;
+    border: none;
+    width: 50%;
+    height: 40vh;
+    border-radius: 20px;
+    margin:40px auto 0 auto; 
+    background-image: url('https://d2r55xnwy6nx47.cloudfront.net/uploads/2021/01/Riemann-Hypothesis-Lede-still-1720x968.jpg');
+    position: relative;
+    box-shadow: 5px 10px rgba(70, 70, 70, 0.3);
+    
+}
+
+.riemann-h h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size:30px;
+}
+.riemann-h button {
+    bottom: 20px;
+
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 162, 23);
+    box-shadow: 0px 10px 0px 0px rgb(202, 124, 7); 
+    position:absolute;
+    right: 20px;
+}
+.riemann-h button:hover {
+    cursor: pointer;
+    box-shadow: 0px 5px 0px 0px rgb(202, 124, 7); 
+    bottom: 15px;
+    
+}
+
+
+@media only screen and (max-width: 550px) {
+    .riemann-h {
+        width: 80%;
+    
+    }
+    .riemann-h h1 {
+        font-size: 30px;
+    }
+    .riemann-h h2 {
+        font-size: 35px;
+        margin-top: 100px;
+    }
+}

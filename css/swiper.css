@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  height: 120px;
+  width: 120px;
+  box-shadow: 3px 3px 3px 2px rgba(0, 76, 78, 0.2);
+}
+.swiper-slide {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 780px) {
+  .swiper {
+    width: auto;
+  }
+}
